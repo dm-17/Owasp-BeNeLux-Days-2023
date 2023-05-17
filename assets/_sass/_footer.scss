@@ -1,0 +1,57 @@
+footer {
+	text-align: center;
+	padding: 1em;
+	clear: both;
+	width: 100%;
+	background: rgb(242, 245, 247);
+	color: #333;
+
+	div {
+		padding: 0.5em 0em;
+	}
+	div.cc {
+		font-size: 80%;
+	}
+
+	div.strike {
+		display: block;
+    		text-align: center;
+    		overflow: hidden;
+    		white-space: nowrap;
+	}
+
+	div.strike > span {
+    		position: relative;
+    		display: inline-block;
+	}
+
+	div.strike > span:before,
+	div.strike > span:after {
+    		content: "";
+    		position: absolute;
+    		top: 50%;
+    		width: 9999px;
+    		height: 1px;
+    		background: #333;
+	}
+
+	div.strike > span:before {
+    		right: 100%;
+    		margin-right: 15px;
+	}
+
+	div.strike > span:after {
+    		left: 100%;
+    		margin-left: 15px;
+	}
+	
+	div.sponsor {
+		width: 300px;
+		display: inline-block;
+		img {
+			width: 300px;
+			display: block;
+		}
+	}
+
+}

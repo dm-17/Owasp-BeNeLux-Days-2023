@@ -1,0 +1,85 @@
+{% assign baseUrl = "/" %}<!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--script async src="https://www.googletagmanager.com/gtag/js?id=UA-179250041-1"></script-->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179250041-1');
+</script>
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <meta property="og:title" content="OWASP BeNeLux Days {{page.title }}">
+  <meta property="og:url" content="https://www.owaspbenelux.eu{{page.url}}" >
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="The premier application security conference for European developers and security experts. OWASP BeNeLux Days provides attendees with insight into leading speakers for application security and cyber security, training sessions on various applications, networking, connections and exposure to the best practices in cybersecurity.">
+  <meta property="og:image" content="https://www.owaspbenelux.eu/assets/images/logo.svg">
+  <meta property="og:image:type" content="image/svg">
+  <meta property="og:image:width" content="500">
+  <meta property="og:image:height" content="500">
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+<link rel="manifest" href="/assets/icons/site.webmanifest">
+<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#0079a7">
+<meta name="msapplication-TileColor" content="#0079a7">
+<meta name="theme-color" content="#ffffff">
+
+
+	<link type="text/css" rel="stylesheet" href="/assets/css/style.css?_={{ site.time | date: '%s' }}">
+  <title>{{ page.title }}</title>
+  <link href="https://fonts.googleapis.com/css?family=Brawler|Titillium+Web" rel="stylesheet">
+<body class="{{page.bodyclass}}">
+<header style="background-image: {{site.multiply}}, url(/assets/images/binary_bg.jpg);">
+	<nav>
+    <a href="#" class="burger dropdown-toggle" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">☰</a>
+    <ul class="nav navbar-nav">
+    {% for menu in site.data.menus %}
+      {% if menu.items %}
+      <li class="dropdown">
+          {% if menu.url %}
+            {% if menu.url contains '://' %}
+              {% assign topurl = {{menu.url}} %}
+            {% else %}
+              {% assign topurl = {{baseUrl}}{{menu.url}} %}
+            {% endif %}
+          {% else %}
+            {% assign topurl = "#" %}
+          {% endif %}
+        <a href="{{topurl}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{menu.title}}</a>
+          <ul class="dropdown-menu">
+          {% for item in menu.items %}
+              {% if item.url contains '://' %}
+                  <li><a href="{{item.url}}">{{item.title}}</a></li>
+              {% else %}
+                  <li><a href="{{baseUrl}}{{item.url}}">{{item.title}}</a></li>
+              {% endif %}
+          {% endfor %}
+          </ul>
+      </li>
+      {% else %}
+        <li>
+          {% if menu.url contains '://' %}
+            <a href="{{menu.url}}">{{menu.title}}</a>
+          {% else %}
+            <a href="{{baseUrl}}{{menu.url}}">{{menu.title}}</a>
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </nav>
+	<a class="logo" href="/">
+		<h1>OWASP BeNeLux Days Conference 2023</h1>
+		<h2>by OWASP Foundation</h2>
+	</a>

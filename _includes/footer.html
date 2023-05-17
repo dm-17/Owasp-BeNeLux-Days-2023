@@ -1,0 +1,53 @@
+<footer>
+  <div class="strike">
+    <span>Sponsors</span>
+  </div>
+
+  {% assign goldSponsors = site.data.sponsors | where:"level","Gold" | sort: 'name' %}
+  {% assign silverSponsors = site.data.sponsors | where:"level","Silver" | sort: 'name' %}
+  {% assign bronzeSponsors = site.data.sponsors | where:"level","Bronze" | sort: 'name' %}
+  {% assign socialEventSponsors = site.data.sponsors | where:"level","Social event" | sort: 'name' %}
+
+  <div class="sponsor">
+    <a href="https://www.achmea.nl/"><img src="/assets/images/sponsors/achmea.png" alt="Achmea logo"/></a><br />
+  </div>
+
+  {% if goldSponsors %}
+    {% for sponsor in goldSponsors %}
+      <div class="sponsor">
+      	<a href="{{ sponsor.url }}"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if silverSponsors %}
+    {% for sponsor in silverSponsors %}
+      <div class="sponsor">
+      	<a href="{{ sponsor.url }}"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if bronzeSponsors %}
+    {% for sponsor in bronzeSponsors %}
+      <div class="sponsor">
+      	<a href="{{ sponsor.url }}"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if socialEventSponsors %}
+    {% for sponsor in socialEventSponsors %}
+      <div class="sponsor">
+      	<a href="{{ sponsor.url }}"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  <div class="strike">
+    <span>Sponsors</span>
+  </div>
+  <div>&copy; OWASP Foundation 2023</div>
+</footer>
+</body>
+</html>

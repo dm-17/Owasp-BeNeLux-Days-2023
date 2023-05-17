@@ -1,0 +1,17 @@
+{% include header.html %}
+
+		<h1 class="pagetitle">{{page.title}}</h1>
+</header>
+
+
+<section>
+<section class="punch">
+{% if site.data.bannermessage.text %}
+<div align=center>
+<h1 style="{{site.data.bannermessage.style}}">{{site.data.bannermessage.text}}</h1>
+</div>
+{% endif %}
+{{content}}
+</section>
+
+{% include footer.html %}

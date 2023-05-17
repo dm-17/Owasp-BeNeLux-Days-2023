@@ -1,0 +1,61 @@
+# 25/09/2022
+
+- image    : 42crunch.png
+  name     : 42 Crunch
+  url      : https://42crunch.com
+  level    : Gold
+  style    :
+
+#- image   : contrast-security.png
+#  name    : Contrast Security
+#  url     : https://www.contrastsecurity.com/en-gb/
+#  level   : Gold
+#  style   :
+#
+- image   : micro-focus.png
+  name    : Micro Focus
+  url     : https://www.microfocus.com/
+  level   : Gold
+  style   :
+#
+# - image   : secura.png
+#   name    : Secura
+#   url     : https://www.secura.com/
+#   level   : Bronze
+#   style   :
+#
+# - image   : sig.png
+#   name    : Software Improvement Group
+#   url     : https://www.softwareimprovementgroup.com/
+#   level   : Gold
+#   style   :
+#
+- image   : davinsi-labs.png
+  name    : Davinsi Labs
+  url     : https://davinsi.com/
+  level   : Bronze
+  style   :
+#
+# - image   : toreon.png
+#   name    : Toreon
+#   url     : https://www.toreon.com/
+#   level   : Silver
+#   style   :
+#
+# - image   : securify.png
+#   name    : Securify
+#   url     : https://www.securify.nl/
+#   level   : Silver
+#   style   :
+#
+- image   : vest.png
+  name    : Vest
+  url     : https://www.vest.nl/
+  level   : Gold
+  style   :
+
+- image   : xebia.png
+  name    : Xebia
+  url     : https://www.xebia.com
+  level   : Silver
+  style   :

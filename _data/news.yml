@@ -1,0 +1,29 @@
+- date    : 10-11-2022
+  text    : >-
+            Check out the <a href=/program/conference>conference program</a> and the available <a href=/program/training>trainings</a>!
+            <br>
+            And don't forget to <a href=https://owasp-benelux-days-fall-2022.eventbrite.com/>register now</a>.<br>
+            We will also host <a href="/program/ctf">OWASP WrongSecrets CTF</a>!
+  display : yes
+- date    : 24-10-2022
+  text    : >-
+            Here are some confirmed speakers for the conference day: </br>
+            <ul>
+            <li>Grant Ongers with 100x your AppSec Program</li>
+            <li>Wouter Hindriks with Incident Response without compromise</li>
+            <li>Daniel Kapellmann Zafra & Ken Proska with Incontroller - ICS malware</li>
+            <li>Bram Patelski with Security by Meme</li>
+            <li>Ben Brucker with Social engineering</li>
+            <li>Koen Yskout with a presentation of findings on threat modeling in Dutch companies</li>
+            </ul>
+            So hurry and <a href=https://owasp-benelux-days-fall-2022.eventbrite.com/>register now</a>
+  display : no
+- date    : 22-10-2022
+  text    : "The location of the BeNeLux days 2022 is: <a href=/location>Achmea (Spoorlaan 298, 5017 JZ Tilburg, The Netherlands)</a>."
+  display : yes
+- date    : 18-10-2022
+  text    : Unlike previous years, the conference day will be held on Thursday (24/11/2022) and the training day will be held on Friday (25/11/2022)!
+  display : yes
+- date    : 25-09-2022
+  text    : It's confirmed. The OWASP BeNelux days will take place on 24 and 25 November 2022. The location will be disclosed very soon (hint... the Netherlands will be your host)
+  display : no

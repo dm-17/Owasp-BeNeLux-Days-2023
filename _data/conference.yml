@@ -1,0 +1,304 @@
+# 24/11/2022
+
+- image   : grant-ongers.png
+  day     : 24/11/2022
+  time    : 09:15 - 10:00
+  name    : Grant Ongers
+  bio     : >-
+            Co-founder of Secure Delivery and current OWASP Global Foundation
+            board member, Grant Ongers (@rewtd), is a firm believer in security
+            enabling delivery, not blocking it. Well known in the international
+            InfoSec community (it's hard to forget the beard!), his 10+ years'
+            experience in Dev, 20 years in Ops and 30 years in Sec (mostly white hat)
+            has made him a firm believer that there's no such thing as DevSecOps -
+            just DevOps done right, and that compliance != security (or the other
+            way around). Alongside his role as CTO within Secure Delivery, Grant
+            provides C-suite advice and guidance on security to FTSE100 enterprises
+            and strategic risk analysis within M&A diligence teams.
+  title   : 100x your AppSec Program
+  abstract: >-
+            Developers outnumber security folks about 100 to 1. They are super
+            smart and they care about the code that they write. Getting developers
+            onboard with your AppSec program is how to scale your ability to secure
+            all that code a hundred times better than we can today. There are a
+            number of OWASP projects we use to help do this both commercially and
+            as part of the work we are doing in the OWASP Open Application Security
+            Curriculum project.
+  feed    : https://youtu.be/v3ZPN81WNmk
+  url     :
+  urltag  :
+  display : yes
+
+- image   : ben-brucker.jpeg
+  day     : 24/11/2022
+  time    : 11:00 - 11:45
+  name    : Ben Brucker
+  bio     : >-
+            With over 8 years of experience, Ben Brücker is Secura's domain lead
+            for Red Teaming and a senior security specialist. As an avid fan of
+            Social Engineering, he specializes in initial access techniques
+            where he obtains access via any means necessary, whether it be
+            phishing, vishing or physical entry. Also, in his role as Red
+            Teaming lead it is Ben's responsibility to continually improve
+            Secura's RT service offering.<br>
+            Besides his operational work, Ben is a trainer for a number of
+            courses, including a Secure Programming, Mobile Security, and
+            Threat Modeling course.
+  title   : Social engineering and physical entry, a Red Teamer's toolbox
+  abstract: >-
+            As a hacker, obtaining access to companies is generally getting
+            harder and harder as a result of better security posture and more
+            secure networks and software. However, how secure is your
+            organization when a hacker just walks into your building?
+            In this talk Ben will show you the motivations and techniques
+            of attackers that resort to this initial access tactic.<br>
+            Examples will be shown from Secura's own physical social
+            engineering assessments that were performed in a Red Teaming context.
+            In addition, Ben will demonstrate a number of tools that Secura's
+            Red Team is using to break into secure organizations. So, do you
+            want to see in real life how to clone a physical key or a badge,
+            and how to use lockpicks and other fun tools? Join this talk!
+  feed    : https://youtu.be/wFHgOaCm9Ck
+  url     :
+  urltag  :
+  display : yes
+
+- image   : jeroen-willemsen-ben-de-haan.png
+  day     : 24/11/2022
+  time    : 10:00 - 10:45
+  name    : Jeroen Willemsen and Ben De Haan
+  bio     : >-
+            Jeroen Willemsen is the project lead of OWASP WrongSecrets and a
+            jack of all trades in security. He loves to develop new software,
+            set up DevSecOps support tooling, and help companies with security
+            programs. He enjoys sharing knowledge, which is why he published
+            articles, and blogs and gave trainings and talks about various
+            subjects.<br>
+            Ben is a DevOps/Security/Site reliability Consultant and Engineer,
+            and co-project leader of OWASP WrongSecrets. My specialties are
+            architecting and implementing cloud services and building secure
+            CI/CD environments. Ben believes security should be built-in and
+            can be scaled to meet these modern ways of working. Outside of
+            typical work I enjoy public speaking and hosting trainings or
+            workshops, and I’m an AWS Meetup regular.
+
+  title   : CTF Kickoff with OWASP WrongSecrets
+  abstract: >-
+            Want to have a go at secrets hunting? Enter <a href="/program/ctf">OWASP WrongSecrets</a>!
+            You won’t get our demonstration. Instead, you’ll go on a secrets hunt
+            yourself with this custom made CTF for this event. During this session,
+            we will share the domain and credentials for which you can register
+            in order to play a CTF until 15h00! The winner of the CTF goes home
+            with a surprise prize. Hope to see you there!
+  feed    : https://youtu.be/MsoFXizE4yQ
+  url     :
+  urltag  :
+  display : yes
+
+- image   : bram-patelski.jpg
+  day     : 24/11/2022
+  time    : 11:45 - 12:30
+  name    : Bram Patelski
+  bio     : >-
+            AppSec Engineer, Security Champion and Java Developer at Ordina.<br>
+            Bram has been working in Software development since early 2000.
+            While already interested in everything security and privacy
+            related, his calling came when rewatching a presentation at
+            DevoxxUK by pentester FC . Since then, Bram has done secure
+            code analysis, created and taught AppSec training for developers,
+            provides valuable input for the security program at his company
+            and presented at several universities and software development
+            companies.
+  title   : Security by Meme - Less FUD, more FUN
+  abstract: >-
+            Let's make security fun again. With a pile of memes, I will make
+            you laugh and show you security can be easy and fun.<br>
+            Security experts are perfectly capable of scaring us with FUD:
+            Fear, Uncertainty and Doubt. Horror stories of accounts hacked
+            in seconds, Bank accounts and Crypto wallets drained, smart
+            devices taken over and baby monitors and home security cameras
+            spying on their owners.<br>While those stories are in theory
+            true, they also scare us into thinking security is nearly
+            impossible, even for experts. Yes, there is no such thing as
+            100% security. But we can achieve 99% more security with only
+            1% effort.<br>
+            Let me take you on a trip through Security by meme.
+  feed    : https://youtu.be/rG7QbTf5X-c
+  url     :
+  urltag  :
+  display : yes
+
+- image   : daniel-kapellmann-zafra.jpg
+  day     : 24/11/2022
+  time    : 13:30 - 14:15
+  name    : Daniel Kapellmann Zafra & Ken Proska
+  bio     : >-
+            Analysis Manager for Google Cloud/Mandiant where he oversees the
+            strategic coverage of cyber physical threat intelligence and
+            information operations. He also coordinates the development of
+            solutions to collect and analyze data. He is a frequent speaker
+            on ICS/OT topics at international conferences and collaborates
+            as international liaison for the ICS Joint Working Group Steering
+            Team from CISA. As a former Fulbright scholar from Mexico, he
+            holds a master’s degree from the University of Washington
+            specialized in Information Security and Risk Management. In 2017,
+            he was awarded first place at Kaspersky Academy Talent Lab's
+            competition for designing an application to address security
+            beyond anti-virus.
+  title   : INCONTROLLER - New Malware Developed to Target Industrial Control Systems
+  abstract: >-
+            Only a few times in history we have seen publicly documented malware
+            developed to target industrial control systems (ICS). Over ten years
+            ago STUXNET impacted Iranian nuclear centrifuges. Then INDUSTROYER
+            turned off electric power in Ukraine and TRITON targeted the safety
+            systems from a critical infrastructure organization. Today, a
+            couple years later, we ran into INCONTROLLER.<br>
+            INCONTROLLER is a set of novel ICS- oriented attack tools built
+            to target specific Schneider Electric and Omron devices that
+            are embedded in different types of machinery leveraged across
+            multiple industries. The tools – which are very likely
+            state-sponsored – represent an exceptionally rare and dangerous
+            cyber-attack that contains capabilities related to disruption,
+            sabotage, and potentially physical destruction. In this talk I
+            will present our analysis of INCONTROLLER, its components, attack
+            scenarios, and the implications for defenders.
+  feed    : https://youtu.be/kSR1d2qph8Q
+  url     :
+  urltag  :
+  display : yes
+
+- image   : colin-domoney.jpg
+  day     : 24/11/2022
+  time    : 14:15 - 15:00
+  name    : Colin Domoney
+  bio     : >-
+            Colin Domoney is an API security research specialist and developer
+            advocate with 42Crunch. He oversees the development of the 42Crunch
+            community and curates the
+            <a href="http://apisecurity.io/" target="_blank">ApiSecurity.io</a> industry
+            newsletter.
+            Colin has a long and varied career in producing secure, rugged,
+            and trustable software and hardware products covering a range of
+            industries from military, consumer, medical, automotive to financial
+            services. Colin has recently built and consulted on large-scale
+            AppSec programs and oversaw Deutsche Bank's global AppSec program,
+            and is an expert and enthusiast on all things DevSecOps. Colin is
+            also a regular conference speaker and DevOps instructor and is
+            currently authoring the industry's first book on defending APIs.
+  title   : Are your APIs rugged?
+  abstract: >-
+            The Rugged Manifesto threw down the gauntlet to developers –
+            is your code more than secure, is it also rugged? Is it resilient
+            and able to withstand attacks from talented and well-funded
+            adversaries? If you're an API developer you are on the frontline
+            when it comes to building rugged software since your APIs are
+            likely to be public-facing, well documented, discoverable, and
+            constantly under attack.<br>
+
+            In this session, we explore the OWASP API Top 10 vulnerabilities
+            and other challenges that face API developers when building a
+            secure API. We show how to leverage the power of the OpenAPI
+            specification to better understand how to protect specific
+            endpoints and responses, how to constrain input and output
+            data, and how to use a variety of API test tooling to verify
+            the specification and the API implementation.<br>
+
+            Finally, we'll review several recent high-profile API breaches
+            and recreate the underlying issues to gain a deeper insight into
+            the root cause and how to defend against such errors.
+  feed    : https://youtu.be/YJ65Lg-SeJM
+  url     :
+  urltag  :
+  display : yes
+
+- image   : koen-yskout.jpg
+  day     : 24/11/2022
+  time    : 15:15 - 16:00
+  name    : Koen Yskout
+  bio     : >-
+            Koen is a research manager in the DistriNet research group of KU
+            Leuven, working on the secure software engineering (security by
+            design) research track. He has more than 15 years of research
+            experience related to threat modeling and other architectural and
+            design-level processes, models, notations, and patterns for
+            security. He is particularly interested in the use of automation
+            for designing secure software, as well as empirical investigations
+            on the human aspects of secure software engineering.
+  title   : Assessing the state of practice of threat modeling in Dutch organizations
+  abstract: >-
+            We are currently conducting an empirical research project (in the
+            form of interviews) on the use of security threat modeling in
+            several large Dutch corporations, commissioned by the Dutch NCSC.
+            Our goal is to describe the current state of practice regarding
+            threat modeling, by mapping how threat modeling is embedded within
+            the organizations, which roles are involved, how threat modeling
+            activities are conducted in practice, and what are the experiences
+            of the participants. While this research is still ongoing, in this
+            talk we will present the research process, our own experiences as
+            researchers, and offer a glimpse at some preliminary findings and
+            insights.
+  feed    : https://youtu.be/KFMY-Zy4Stk
+  url     :
+  urltag  :
+  display : yes
+
+- image   : brenno-de-winter.jpg
+  day     : 24/11/2022
+  time    : 16:00 - 16:45
+  name    : Brenno de Winter
+  bio     : >-
+            Brenno de Winter, 1971, wrote his first software at the age of 5.
+            He has been in IT ever since. From 2001 to 2016 he was an
+            investigative journalist on technology issues and became journalist
+            of the year for hacking the public transportion rfid-cards. Sinds
+            may 2020 he is Chief Security and Privacy Operations at the Dutch
+            Ministry of Health, Welfare and Sport for the program Realisation
+            Digital Support COVID19.
+  title   : When hackers and cats help - Redesigning security during a crisis
+  abstract: >-
+            In 2020, when the pandemic started, scientists suggested to also
+            digitally support fighting the pandemic. One of the suggestions
+            was digitally supported contact tracing. After first asking the
+            market for solutions the Dutch Ministry of Health, Welfare and
+            Sport decided to
+            self build open, privacy friendly, secure and accessible solutions
+            with help of a large open source community. When vaccinations
+            became available and timeframes for building solutions were near
+            impossible the next step was clear: get hackers involved. This
+            isn’t just to stick to the values, but also to create solutions
+            in ways that aren’t always common for governments. How do you hack
+            processes and rules to create what some ministries called magic?
+            This talk will tell the inside hacker tale of the pandemic and
+            show the dilemmas that were overcome.<br>
+            This is a story of hackers in a ministry at the heat of the moment.
+  feed    : https://youtu.be/q_Kdt-WsG08
+  url     :
+  urltag  :
+  display : yes
+
+- day     : 24/11/2022
+  time    : 08:30 - 09:00
+  name    :
+  title   : Welcome and registration
+
+- day     : 24/11/2022
+  time    : 09:00 - 09:15
+  name    : Irfaan Santoe
+  title   : Introduction and OWASP update
+
+- day     : 24/11/2022
+  time    : 10:45 - 11:00
+  title   : Break
+
+- day     : 24/11/2022
+  time    : 12:30 - 13:30
+  title   : Lunch
+
+- day     : 24/11/2022
+  time    : 15:00 - 15:15
+  title   : Break
+
+- day     : 24/11/2022
+  time    : 16:45 - 17:00
+  name    : Sebastien Deleersnyder
+  title   : Closing note
