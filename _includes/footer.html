@@ -8,10 +8,10 @@
   {% assign bronzeSponsors = site.data.sponsors | where:"level","Bronze" | sort: 'name' %}
   {% assign socialEventSponsors = site.data.sponsors | where:"level","Social event" | sort: 'name' %}
 
-  <div class="sponsor">
+  <!-- <div class="sponsor">
     <a href="https://www.achmea.nl/"><img src="/assets/images/sponsors/achmea.png" alt="Achmea logo"/></a><br />
-  </div>
-
+  </div> -->
+<!-- 
   {% if goldSponsors %}
     {% for sponsor in goldSponsors %}
       <div class="sponsor">
@@ -42,7 +42,7 @@
       	<a href="{{ sponsor.url }}"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
-  {% endif %}
+  {% endif %} -->
 
   <div class="strike">
     <span>Sponsors</span>
