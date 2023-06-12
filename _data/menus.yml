@@ -1,22 +1,7 @@
-# - title: Program
-#   url  : program/conference
-#   items:
-#   - title: Training day
-#     url  : program/training
-#   - title: Conference day
-#     url  : program/conference
-#   - title: Capture the Flag
-#     url  : program/ctf
-#   - title: Social event
-#     url  : program/socialevent
-#  - title: Conference live streaming
-#    url  : https://www.youtube.com/watch?v=9MOBMk0Y6KQ
 - title: Location
   url  : location/
 - title: Sponsor
   url  : sponsor/
-# - title: Relive the conference
-#   url  : program/feeds
 - title: Donate
   url  : donate/
 - title: About
