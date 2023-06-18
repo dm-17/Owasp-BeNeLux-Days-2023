@@ -6,3 +6,8 @@
 #   level    : Gold
 #   style    :
 
+ - image    : logo.svg
+   name     : OWASP
+   url      : https://www.owasp.org
+   level    : Gold
+   style    :
