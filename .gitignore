@@ -4,3 +4,4 @@ _site/*
 _site*
 .sass-cache/*
 _site/
+!_site/README.md
