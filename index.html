@@ -10,6 +10,15 @@ bodyclass: front
 <br>
 <h2>More details will follow soon as we're working on the conference program!</h2>
 
+<h2>News</h2>
+{% for news in site.data.news %}
+  {% if news.display %}
+  <h5>{{news.date}}:</h5>
+  <p>{{news.text}}</p>
+  {% endif %}
+{% endfor %}
+<br>
+
 
 <h2>OWASP BeNeLux conference is free, but registration is required!</h2>
 <p>To support the OWASP organisation, consider to become a member, it's only <strong>US$50!</strong> Check out the <a href="https://wiki.owasp.org/index.php/Membership">Membership</a> page to find out more.</p>

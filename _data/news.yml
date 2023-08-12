@@ -27,3 +27,6 @@
 # - date    : 25-09-2022
 #   text    : It's confirmed. The OWASP BeNelux days will take place on 24 and 25 November 2022. The location will be disclosed very soon (hint... the Netherlands will be your host)
 #   display : no
+- date    : 12-08-2023
+  text    : <a href="/sponsor">Sponsor information</a> is added to the website.
+  display : yes
