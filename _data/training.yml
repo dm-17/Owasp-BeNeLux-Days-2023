@@ -13,3 +13,42 @@
 #   url     :
 #   urltag  :
 #   display : yes
+
+ - image   : 
+   day     : 24/11/2023
+   time    : 09:00 - 17:00
+   name    : Björn Kimminich
+   bio     : >-
+             Björn works as Product Group Lead Application Ecosystem at 
+             Kuehne+Nagel, responsible – among other things – for the 
+             Application Security program in the corporate IT. He is an 
+             OWASP Lifetime Member, the project leader of the OWASP Juice 
+             Shop, and a co-chapter leader for the OWASP Germany Chapter. 
+             Björn also currently chairs the OWASP Project Committee.
+   title   : Juice Shop Training&#58; Train the Trainer Edition
+   abstract: >-
+             In this training we will learn how to fully use the OWASP Juice 
+             Shop in our own training courses, lectures or awareness sessions:<br />
+             <br />
+             * Intro: In this short module, we'll get to know the OWASP Juice Shop 
+               and try out some hacking and coding challenges.<br />
+             * Mob hacking: Here we get to know some challenges that are particularly 
+               (un)suitable for hacking in the plenum.<br />
+             * Theming: This module is all about customizing the Juice Shop to 
+               transform it into the look and feel of your company and customers.<br />
+             * CTF: In this module we will use Juice Shop and CTFd tools to set up a 
+               Capture-the-Flag event in very short time with all Juice Shop hacking 
+               challenges<br />
+             * Integration: Finally, let's look at ways to integrate with learning 
+               platforms, dashboards, etc., as well as the Juice Shop's anti-cheat 
+               features.<br />
+             <br />
+             All modules are as little slides as possible and instead rich in practical 
+             exercises and examples!<br />
+             <br />
+             Recuirements:<br />
+             * Laptop with a recent version of Docker Desktop and Node.js/NPM installed
+   feed    :
+   url     :
+   urltag  :
+   display : yes

@@ -1,42 +1,169 @@
 # 24/11/2022
 
-- image   : image.png
-  day     : 24/11/2023
-  time    : 09:15 - 10:00
-  name    : Speaker Name
+#- image   : image.png
+#  day     : 24/11/2023
+#  time    : 09:15 - 10:00
+#  name    : Speaker Name
+#  bio     : >-
+#            Biography
+#  title   : Talk title
+#  abstract: >-
+#            Talk abstract
+#  feed    : 
+#  url     :
+#  urltag  :
+#  display : yes
+
+#- day     : 24/11/2022
+#  time    : 08:30 - 09:00
+#  name    :
+#  title   : Welcome and registration
+
+#- day     : 24/11/2022
+#  time    : 09:00 - 09:15
+#  name    : Irfaan Santoe
+#  title   : Introduction and OWASP update
+
+#- day     : 24/11/2022
+#  time    : 10:45 - 11:00
+#  title   : Break
+
+#- day     : 24/11/2022
+#  time    : 12:30 - 13:30
+#  title   : Lunch
+
+#- day     : 24/11/2022
+#  time    : 15:00 - 15:15
+#  title   : Break
+
+#- day     : 24/11/2022
+#  time    : 16:45 - 17:00
+#  name    : Sebastien Deleersnyder
+#  title   : Closing note
+
+- image   : 
+  day     : 23/11/2024
+  time    : 
+  name    : Himanshu Mehta
   bio     : >-
-            Biography
-  title   : Talk title
+            I possess both expertise and passion in the field of Offensive 
+            and Defensive Security. I serve as an advisory board member for 
+            the EC-Council’s Licensed Penetration Tester group and HackersEra. 
+            I actively participate in numerous bug bounty and Capture the Flag 
+            programs worldwide, and have been invited to present my research 
+            at several prestigious international security conferences, 
+            including BlackHat, RSAC USA, ICS Singapore, Hack In Paris, HITB 
+            (Amsterdam, Dubai, Abu Dhabi), SecurityFest (Sweden), InfoSecurity 
+            (London), Offzone (Moscow), NanoSec (Malaysia), DSCI, National 
+            Cyber Security Conference, Best of the world Conference & Hakon. 
+            My previous roles include Head of Cyber Threat Intelligence at 
+            Hive Pro, Senior Security Researcher at Darkmatter, and leading a 
+            global team of security intelligence at Symantec. These experiences 
+            have provided me with valuable insights and fueled my desire to 
+            continue growing as a creative leader in the field of cyber-security.
+  title   : Down the Rabbit Hole&#58; Exploring GraphQL Exploitation
   abstract: >-
-            Talk abstract
-  feed    : 
+            "Down the Rabbit Hole: Exploring GraphQL Exploitation" is an 
+            in-depth exploration into the world of GraphQL from a security 
+            perspective. This talk is designed for those with a keen interest in 
+            understanding the latest advancements in web technologies and their 
+            potential vulnerabilities. It provides a roadmap to navigate the 
+            complexities of GraphQL, demonstrating efficient methodologies for 
+            building and consuming APIs while highlighting potential security 
+            risks.<br />
+            <br />
+            The talk delves into the diverse ecosystem of tools, libraries, and 
+            frameworks available across various programming languages, offering 
+            real-time data updates through its subscription mechanism. It also 
+            discusses the practical implementation and integration of GraphQL in 
+            different environments, emphasizing potential security implications. 
+            Whether you’re an experienced developer or a cybersecurity 
+            professional, this talk will arm you with the necessary knowledge 
+            and tools to effectively exploit and secure GraphQL implementations.
+  feed    :
   url     :
   urltag  :
-  display : yes
+  display : no
+  confirmed: yes
 
-- day     : 24/11/2022
-  time    : 08:30 - 09:00
-  name    :
-  title   : Welcome and registration
+- image   : 
+  day     : 23/11/2024
+  time    : 
+  name    : Niels Tanis
+  bio     : >-
+            Niels Tanis has got a background in .NET development, pentesting and 
+            security consultancy. He is Microsoft MVP and has been involved in 
+            breaking, defending and building secure applications. He joined 
+            Veracode in 2015 and right now he works as a security researcher on a 
+            variant of languages and technologies related to Veracode’s Binary 
+            Static Analysis service. He is married, father of two and lives in 
+            a small village just outside Amersfoort, The Netherlands.
+  title   : Using WebAssembly to run, extend, and secure your application
+  abstract: >-
+            WebAssembly (WASM) has come a long way since its first release in 2017. 
+            As a technology stack running inside the web browser, it even allows 
+            products like Adobe Photoshop to run in that context. Now with a 
+            standard called WASI, WASM is expanding beyond the browser to run in a 
+            server-based context.<br />
+            Had WASM and WASI been around in 2009, Docker would not have existed 
+            according to one of its founders, Solomon Hykes. WASM has a strong 
+            security posture given how it works with linear memory space and how 
+            it supports a sandboxed-based environment called “nano-process”, 
+            which uses a capabilities-based security model.<br />
+            In this session we'll start out with going through some of the basic 
+            security features of WASM and then move to running and extending an 
+            application it with WASM. After that we'll focus on the security 
+            features and use the sandbox and the capabilities based security 
+            model to limit what it's allowed to do.
+  feed    :
+  url     :
+  urltag  :
+  display : no
+  confirmed: yes
 
-- day     : 24/11/2022
-  time    : 09:00 - 09:15
-  name    : Irfaan Santoe
-  title   : Introduction and OWASP update
-
-- day     : 24/11/2022
-  time    : 10:45 - 11:00
-  title   : Break
-
-- day     : 24/11/2022
-  time    : 12:30 - 13:30
-  title   : Lunch
-
-- day     : 24/11/2022
-  time    : 15:00 - 15:15
-  title   : Break
-
-- day     : 24/11/2022
-  time    : 16:45 - 17:00
-  name    : Sebastien Deleersnyder
-  title   : Closing note
+- image   : 
+  day     : 23/11/2024
+  time    : 
+  name    : Sarah-Jane Madden
+  bio     : >-
+            Sarah-Jane is the Chief Information Security Officer of Sensing 
+            Technology Group - a part of Fortive. She has over 20 years software 
+            experience from the most formal environments to 'let's fix it in 
+            production' type teams. She has been a longtime advocate of deliberate 
+            application security as a partnership with product management and 
+            believes that security does not have to be an overhead. A strong 
+            proponent of threat modeling, she believes it is an essential practice 
+            for every team driving towards the goal of secure by design.
+  title   : Far from green fields - introducing Threat modelling to established teams
+  abstract: >-
+            'Far from green fields - introducing Threat modelling to established
+            teams' takes a look at the unique challenges of introducing Threat
+            Modelling to well established software teams.<br />
+            Microsoft introduced threat modelling as part of the trustworthy
+            computing initiative back in the early 2000s. This was in response to
+            issues they were facing maintaining the trust of their user base in the
+            light of several high profile security issues. Nobody would categorise
+            Microsoft as a startup in 2002 and nobody at Microsoft was
+            suggesting that they stop moving forward with planned features and
+            advancements while they adjusted their practices. Why is it so that
+            so much of the material available to support you as you roll out
+            threat modelling describes it in the context of greenfield projects?
+            Most of us need to know how to successfully introduce this highly
+            effective shift-left security practice to real teams; teams that are
+            running at pace on the tread mill of change, spinning the plates of
+            customers commitments and feature enhancements.
+            In this talk, I will share the experiences of a 3 year journey I have
+            been on to introduce threat modelling to my colleagues across a
+            range of product offerings. We made some mistakes, we learned
+            some lessons the books could not have taught us but ultimately we
+            succeeded and in succeeding we learned that introducing threat
+            modelling is only the beginning.<br />
+            Originally conceived in a pre-COVID world, this talk has been updated
+            to include a look at the challenges and some surprising advantages
+            of threat modelling on remote teams, the impact of legislation and the 
+            pros and cons of AI for the practice.
+  feed    :
+  url     :
+  urltag  :
+  display : no
+  confirmed: yes

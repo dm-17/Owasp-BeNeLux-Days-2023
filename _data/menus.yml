@@ -1,3 +1,11 @@
+- title: Program
+  items:
+  - title: Speakers
+    url  : program/speakers
+  - title: Talks
+    url  : program/talks
+  - title: Training
+    url  : program/training
 - title: Location
   url  : location/
 - title: Sponsor
