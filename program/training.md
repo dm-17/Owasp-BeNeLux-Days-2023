@@ -7,7 +7,7 @@ title: Trainings
 {% if site.data.training[0].name %}
 
 
-  <h2>Trainings on 25/11/2022: Schedule</h2>
+  <h2>Trainings on 24/11/2023: Schedule</h2>
   {% assign trainings = site.data.training | sort: 'time' %}
   <table>
   {% for training in trainings %}
@@ -21,7 +21,7 @@ title: Trainings
   {% endfor %}
   </table>
   <br><br>
-	<h1>Trainings on Friday 25/11/2022:</h1>
+	<h1>Trainings on Friday 24/11/2023:</h1>
 	<br />
 	<ul>
 	{% assign trainings = site.data.training | sort: 'name' %}
