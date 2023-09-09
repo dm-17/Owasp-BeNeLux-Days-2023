@@ -12,6 +12,8 @@
   url  : sponsor/
 - title: Donate
   url  : donate/
+- title: Register
+  url  : https://owasp-benelux-days-2023.eventbrite.com//
 - title: About
   items:
   - title: About OWASP

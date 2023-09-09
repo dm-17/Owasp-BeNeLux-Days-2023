@@ -28,8 +28,12 @@
 #   text    : It's confirmed. The OWASP BeNelux days will take place on 24 and 25 November 2022. The location will be disclosed very soon (hint... the Netherlands will be your host)
 #   display : no
 
+- date    : 09-09-2023
+  text    : Registration is open&#58; <a href="https://owasp-benelux-days-2023.eventbrite.com/">https://owasp-benelux-days-2023.eventbrite.com</a> .
+  display : yes
 - date    : 06-09-2023
-  text    : We have three confired speakers (<a href="/program/speakers#Sarah-Jane-Madden">Sarah-Jane Madden</a>, 
+  text    : >-
+            We have three confired speakers (<a href="/program/speakers#Sarah-Jane-Madden">Sarah-Jane Madden</a>, 
             <a href="/program/speakers#Himanshu-Mehta">Himanshu Mehta</a>, 
             <a href="/program/speakers#Niels-Tanis">Niels-Tanis</a>) and one confirmed training 
             (<a href="/program/training#Björn-Kimminich">Juice Shop Training&#58; Train the Trainer Edition</a>)!
