@@ -6,8 +6,14 @@
 #   level    : Gold
 #   style    :
 
- - image    : logo.svg
-   name     : OWASP
-   url      : https://www.owasp.org
-   level    : Gold
+# - image    : logo.svg
+#   name     : OWASP
+#   url      : https://www.owasp.org
+#   level    : Gold
+#   style    :
+
+ - image    : offensive-360-logo.svg
+   name     : Offensive 360
+   url      : https://offensive360.com/
+   level    : Bronze
    style    :
