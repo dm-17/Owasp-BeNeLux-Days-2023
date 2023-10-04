@@ -52,3 +52,83 @@
    url     :
    urltag  :
    display : yes
+
+ - image   : 
+   day     : 24/11/2023
+   time    : 09:00 - 17:00
+   name    : Georges Bolssens
+   bio     : >-
+             Georges Bolssens embarked on his coding journey in the early 1990s and 
+             delved into the realm of application security in 2017. With an inherent 
+             passion for teaching, Georges is not only a seasoned developer but also an 
+             adept communicator. His unique talent lies in simplifying intricate 
+             subjects through relatable analogies, making him an engaging and effective 
+             speaker.
+             <br />
+             Having undertaken numerous consulting assignments, Georges has assumed the 
+             role of a cybersecurity educator for a diverse spectrum of professionals. 
+             His guidance has illuminated the path for individuals ranging from legal 
+             experts at renowned "Big 4" consulting firms to ethical hackers and all 
+             those in between.
+             <br />
+             In his capacity as an Application Security Consultant at Toreon, Georges 
+             has been instrumental in assisting numerous clients in constructing 
+             comprehensive threat models for their digital assets.
+   title   : Hands-on threat modeling workshop
+   abstract: >-
+             This training is a condensed version of the two-day training that Toreon 
+             has been teaching at security conferences like BlackHat USA for several 
+             years. It aims to introduce the fundamentals of threat modeling using the 
+             DICE-framework (a.k.a. the "Four Question Framework") for threat modeling 
+             a ficticious hotel booking application.<br />
+             <br />
+             This course is an entry-level introduction to threat modeling aimed at 
+             anyone responsible for ensuring a product's security, be it software or 
+             hardware, regardless of their prior expertise in security. We advocate 
+             that threat modeling isn't just for the "happy few" but is essential 
+             knowledge for all involved in the software development lifecycle. Typical 
+             attendees of this course range from software developers, engineers, and 
+             architects to product managers focused on security, incident responders, 
+             and cybersecurity analysts or managers.<br />
+             <br />
+             Recruirements:<br />
+             * A laptop with a browser is required for downloading the exercise PDFs 
+             and taking notes. No software is required.
+   feed    :
+   url     :
+   urltag  :
+   display : yes
+
+ - image   : 
+   day     : 24/11/2023
+   time    : 09:00 - 17:00
+   name    : Jeroen Beckers
+   bio     : >-
+             I am the mobile solution lead at NVISO, where I am responsible for quality 
+             delivery, innovation and methodology for all mobile assessments. I am 
+             actively involved in the mobile security community, and I try to share my 
+             knowledge through open-source tools, blogposts, trainings and presentations. 
+             I am the lead author and instructor of the SANS 575 course&#58; Mobile device 
+             security and ethical hacking and a co-author of the OWASP Mobile Application 
+             Security Testing Guide (MSTG) and OWASP Mobile Application Security 
+             Verification Standard (MASVS).
+   title   : The Hitchhacker's guide to the mobile galaxy
+   abstract: >-
+             The mobile galaxy is dominated by two solar systems:&#58; Android and iOS. 
+             Grab your towel and embark on a journey through the intricacies of mobile 
+             operating systems. Uncover the secrets and vulnerabilities of mobile app 
+             planets through static analysis. Ignite the infinite improbability drive 
+             and delve deeper with dynamic analysis to gain the skills and knowledge 
+             to outwit the Vogons.
+             <br />
+             In this training, not only the Ultimate Question of Life, the Universe, 
+             and Everything will be answered but also most of your questions regarding 
+             mobile security. Join us on this galactic adventure of exploring the OWASP 
+             MASVS and MASTG!<br />
+             <br />
+             Recruirements:<br />
+             * A Linux VM with Java runtime installed
+   feed    :
+   url     :
+   urltag  :
+   display : yes

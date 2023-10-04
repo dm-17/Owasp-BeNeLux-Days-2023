@@ -167,3 +167,148 @@
   urltag  :
   display : no
   confirmed: yes
+
+- image   : 
+  day     : 23/11/2024
+  time    : 
+  name    : Björn Kimminich
+  bio     : >-
+            Björn works as Product Group Lead Application Ecosystem at Kuehne + Nagel, 
+            responsible – among other things – for the Application Security program 
+            in the corporate IT. He is an OWASP Lifetime Member, the project leader 
+            of the OWASP Juice Shop, and a co-chapter leader for the OWASP Germany 
+            Chapter. Björn also currently chairs the OWASP Project Committee.
+  title   : OWASP Juice Shop - An Open Source Software (and security) Fairytale
+  abstract: >-
+            Once upon a time, developers and security experts relied on mostly server-side 
+            rendered vulnerable applications to train their web hacking skills. In 2014 
+            the Juice Shop entered the stage as one of the first Rich Internet Application 
+            representatives. What started as a personal pet project with two dozen hacking 
+            challenges, became an OWASP Flagship project shortly after and grew in size, 
+            scope and use case coverage significantly over the years. Join Björn Kimminich 
+            on a tour through the origins, history and evolution of OWASP Juice Shop from 
+            2014 to 2023, closing with a peek into the future of this juicy hacking delicacy.
+  feed    :
+  url     :
+  urltag  :
+  display : no
+  confirmed: yes
+ 
+- image   : 
+  day     : 23/11/2024
+  time    : 
+  name    : Jeroen Prinse
+  bio     : >-
+            Jeroen is a freelance (C)ISO/Security Architect, currently working for the 
+            Dutch National Cyber Security Centre (NCSC-NL) as their CISO. He is on a mission 
+            to transform the way of working of security professionals to deliver first-time 
+            right, secure by design products and services for customers while enabling 
+            organizations to do business by automating information security as much as possible 
+            and changing security from compliance to a service.
+  title   : A quest to tame DevOps Unicorns
+  abstract: >-
+            In my presentation I will take the audience with me on my quest implementing a 
+            Secure DevOps program in large organizations. I will share my epic failures and 
+            successes and provide the audience with actionable insights that they can take 
+            with them on their Secure DevOps journey to prevent common pitfalls.<br />
+            The presentation will cover anything from the needed culture change within 
+            organizations and with security officers/CISO's to tool selection, implementation 
+            and configuration and anything that can go wrong. All experiences are based on 
+            real life events which give me the perfect opportunity to explain the failures 
+            and how we solved it.<br />
+            It will not be a in depth technical presentation, but by storytelling challenging 
+            the thinking of/and inspiring the audience with regards to Secure DevOps/Agile 
+            information security. I will engage with the audience to share their pitfalls and 
+            successes and provide a learning experience for all attendees.
+  feed    :
+  url     :
+  urltag  :
+  display : no
+  confirmed: yes
+ 
+- image   : 
+  day     : 23/11/2024
+  time    : 
+  name    : Frans van Buul
+  bio     : >-
+            Based out of the Netherlands, Frans van Buul is senior product manager for 
+            Fortify SAST at OpenText. As such, he leads the further development of the 
+            SAST product by a global team of developers and researchers. While it’s not 
+            officially part of his job description, Frans loves to be hands-on and codes 
+            a lot&#58; vulnerable code examples in a large variety of languages, Java 
+            code with SAST analysis algorithms, and random stuff in his spare time. 
+            Before transitioning into product management two years ago, Frans held several 
+            other positions that provided him with the relevant background. He’s been a 
+            security consultant and auditor at PwC, a Java developer and architect at 
+            several companies, and a Fortify SAST sales engineer and sales engineering 
+            leader.
+  title   : Everything-as-Code&#58; Pushing the boundaries of SAST
+  abstract: >-
+            Static Application Security Testing (SAST) is the well-known practice of 
+            analyzing a program's source code using automated techniques to detect potential 
+            security problems. A key aspect of this is dataflow analysis, also known as 
+            taint analysis. In this case, the SAST tool tries to find paths between entry 
+            points of potential attacks, such as web request parameter, and program locations 
+            where such an attack could manifest itself, such as non-escaped SQL statements.
+            <br />
+            While this is a tried-and-true approach for many important cases, such as Java 
+            and C# web applications, it’s no longer enough as we’re entering the “everything 
+            as code” era. As infrastructure becomes code (CloudFormation, Terraform, Bicep, 
+            etc.), contracts become code (Solidity, Viper), circuits become code (VHDL, 
+            Verilog), etc., all these things could potentially be analyzed using SAST 
+            technology. SAST users are seeing this potential and are demanding SAST providers 
+            to extend their offerings in this direction. However, doing so is not a 
+            straightforward extension of standard SAST functionality into new languages and 
+            libraries. 
+            <br />
+            In this talk, we’ll have a look at the frontier of SAST technology, looking at 
+            two specific examples and their peculiarities&#amp; Bicep (Microsoft’s IaC language 
+            for Azure), and Solidity (the most widely used language for smart contracts).
+  feed    :
+  url     :
+  urltag  :
+  display : no
+  confirmed: yes
+
+- image   : 
+  day     : 23/11/2024
+  time    : 
+  name    : Pieter De Cremer
+  bio     : >-
+            Pieter De Cremer (@0xDC0DE) is a Senior Security Researcher at Semgrep, a startup 
+            working on open source static analysis tools that fit the modern developer workflow. 
+            Previously Pieter obtained his PhD doing research for the company Secure Code 
+            Warrior in cooperation with Ghent University. Pieter designed, implemented, 
+            and evaluated improvements to both training and tools provided by this company. 
+            Pieter hosts a youtube channel where he creates Semgrep tutorials as well as other 
+            security research content (https://www.youtube.com/@0xDC0DE) and has previously 
+            spoken at conferences such as OWASP, BruCON, BSides, and DEF CON. In his spare time, 
+            Pieter enjoys hitting the security conference circuit to engage with other 
+            enthusiasts around the world, his afternoon coffee ritual, and a few rounds of Apex 
+            Legends.
+  title   : Secure defaults&#58; a scalable security approach for modern development
+  abstract: >-
+            Self-service security does not mean you let your developers fix all the security 
+            bugs themselves. Nor does it mean only focusing on high-priority issues. 
+            Fundamentally, the aim is to make it easy to write secure code and make it hard to 
+            write insecure code. Instead of playing bug whack-a-mole, with secure defaults, we 
+            build scalable solutions for repetitive tasks required by multiple teams. 
+            These solutions are often called secure defaults, secure guardrails, or the paved road.
+            <br />
+            Once these building blocks are in place, the security team greatly reduces the time 
+            spent on preventing these vulnerabilities in all phases of the development cycle. 
+            Threat modeling, code reviewing, findings triaging, and bug bounty reviews; many of 
+            these tasks become trivial and are reduced to boolean questions&#58; “Is the secure 
+            default used or not?” 
+            <br />
+            In this talk, we will go over some of the fundamentals of why security teams must scale 
+            and how this can be achieved with secure defaults. We will discuss some examples of 
+            real companies like Netflix, Google, Semgrep, and Snowflake applying this approach. In 
+            the second half of this presentation, I present practical tips and guidelines on how to 
+            get started and which features in security tools can make the adoption of secure 
+            defaults easier.
+  feed    :
+  url     :
+  urltag  :
+  display : no
+  confirmed: yes
