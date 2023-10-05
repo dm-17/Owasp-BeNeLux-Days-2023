@@ -17,3 +17,9 @@
    url      : https://offensive360.com/
    level    : Bronze
    style    :
+
+ - image    : secureflag.svg
+   name     : SecureFlag
+   url      : https://www.secureflag.com
+   level    : Gold
+   style    :
