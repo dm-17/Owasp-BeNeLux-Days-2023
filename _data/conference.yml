@@ -312,3 +312,30 @@
   urltag  :
   display : no
   confirmed: yes
+
+- image   : robcvanderveer.jpg
+  day     : 23/11/2024
+  time    : 
+  name    : Rob van der Veer 
+  bio     : >-
+            Rob van der Veer has a 30-year-long background in building secure software and running software 
+            businesses. AI, cyber security and privacy have been constant themes in his career, from 
+            hacking the British RAF in 1986, to building AI solutions for national security. 
+            At the Software Improvement Group, Rob established the AI, security, and privacy practices. 
+            He is involved in a range of standardization initiatives (e.g. OWASP SAMM, ENISA, ISO/IEC 5338, 
+            CIP, AI security & privacy guide, EU AI-act, and the EU Cyber Resilience Act). He co-leads 
+            the OWASP integration project, with OpenCRE.org as the main result.
+  title   : The state of the art in AI security
+  abstract: >-
+            Rob will bring you up to date on the latest advancements in AI and security. 
+            How OpenCRE-Chat uses AI to democratize security. The Large Language Model top 10. 
+            The Machine Learning top 10. The OWASP AI guide. Rob's role in security standardization 
+            for the EU AI Act. How OWASP is bringing together experts around the world to collaborate 
+            on this subject. The latest AI threats,  the latest insights into how you can protect AI 
+            systems. And last but not least: what coding with GenAI means for software development, 
+            and security in particular.
+  feed    :
+  url     :
+  urltag  :
+  display : no
+  confirmed: yes
