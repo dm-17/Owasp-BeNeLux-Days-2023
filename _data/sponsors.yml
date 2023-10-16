@@ -23,3 +23,15 @@
    url      : https://www.secureflag.com
    level    : Gold
    style    :
+
+ - image    : armorcode.svg
+   name     : ArmorCode
+   url      : https://www.armorcode.com
+   level    : Gold
+   style    :
+
+ - image    : zimperium.png
+   name     : ZIMPERIUM
+   url      : https://www.zimperium.com/
+   level    : Gold
+   style    :
