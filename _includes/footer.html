@@ -9,34 +9,38 @@
   {% assign socialEventSponsors = site.data.sponsors | where:"level","Social event" | sort: 'name' %}
 
  
-  {% if goldSponsors %}
+  {% if goldSponsors.size > 0 %}
+    <h2>Gold sponsors</h2>
     {% for sponsor in goldSponsors %}
       <div class="sponsor">
-      	<a href="{{ sponsor.url }}"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
   {% endif %}
 
-  {% if silverSponsors %}
+  {% if silverSponsors.size > 0 %}
+    <h2>Silver sponsors</h2>
     {% for sponsor in silverSponsors %}
-      <div class="sponsor">
-      	<a href="{{ sponsor.url }}"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      <div class="sponsor">  
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
   {% endif %}
 
-  {% if bronzeSponsors %}
+  {% if bronzeSponsors.size > 0 %}
+    <h2>Bronze sponsors</h2>
     {% for sponsor in bronzeSponsors %}
       <div class="sponsor">
-      	<a href="{{ sponsor.url }}"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
   {% endif %}
 
-  {% if socialEventSponsors %}
+  {% if socialEventSponsors.size > 0 %}
+    <h2>Social Event sponsor</h2>
     {% for sponsor in socialEventSponsors %}
       <div class="sponsor">
-      	<a href="{{ sponsor.url }}"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
+      	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
   {% endif %}
