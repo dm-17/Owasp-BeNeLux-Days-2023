@@ -339,3 +339,27 @@
   urltag  :
   display : no
   confirmed: yes
+
+- image   : 
+  day     : 23/11/2024
+  time    : 
+  name    : Stefan Simenon
+  bio     : >-
+            I am an IT professional passionate about topics such as Continuous Integration Continuous 
+            Delivery, Software Quality, Tooling, DevSecOps, Cloud and the management of the cultural, 
+            organizational, team and technological changes associated with these approaches.<br />
+            When working in complex multi-stakeholder environments, I use my social and communication 
+            skills combined with in depth IT knowledge and a sense of humor, to manage and overcome 
+            challenge.<br />
+            I like to share and have shared this passion by speaking at several seminars and 
+            conferences
+  title   : How to implement with DevSecOps in large complex organizations
+  abstract: >-
+            It is not easy to implement DevSecOps in an organization. In large complex organizations 
+            it is even more difficult to implement. Stefan will elaborate in his talk about main 
+            challenges and how to overcome them. He also will provide experiences and best practices.
+  feed    :
+  url     :
+  urltag  :
+  display : no
+  confirmed: yes
