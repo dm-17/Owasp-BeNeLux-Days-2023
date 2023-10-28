@@ -47,3 +47,21 @@
    url      : https://www.cegeka.com
    level    : Social event
    style    :
+
+ - image    : snyk.jpg
+   name     : Snyk
+   url      : https://snyk.io
+   level    : Gold
+   style    : 
+
+ - image    : contrast-security.png
+   name     : Contrast Security
+   url      : https://www.contrastsecurity.com
+   level    : Gold
+   style    : 
+
+ - image    : fortify-opentext.png
+   name     : Fortify
+   url      : https://www.opentext.com
+   level    : Silver
+   style    : 
