@@ -65,3 +65,15 @@
    url      : https://www.opentext.com
    level    : Silver
    style    : 
+
+ - image    : veracode.png
+   name     : Veracode
+   url      : https://www.veracode.com/
+   level    : Gold
+   style    : 
+
+ - image    : synopsys.jpg
+   name     : Synopsys
+   url      : https://www.synopsys.com/
+   level    : Gold
+   style    : 
