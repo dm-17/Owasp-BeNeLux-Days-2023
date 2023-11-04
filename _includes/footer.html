@@ -12,7 +12,7 @@
   {% if goldSponsors.size > 0 %}
     <h2>Gold sponsors</h2>
     {% for sponsor in goldSponsors %}
-      <div class="sponsor">
+      <div class="sponsor" style="{{ sponsor.style }}">
       	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
@@ -21,7 +21,7 @@
   {% if silverSponsors.size > 0 %}
     <h2>Silver sponsors</h2>
     {% for sponsor in silverSponsors %}
-      <div class="sponsor">  
+      <div class="sponsor" style="{{ sponsor.style }}">  
       	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
@@ -30,7 +30,7 @@
   {% if bronzeSponsors.size > 0 %}
     <h2>Bronze sponsors</h2>
     {% for sponsor in bronzeSponsors %}
-      <div class="sponsor">
+      <div class="sponsor" style="{{ sponsor.style }}">
       	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}
@@ -39,7 +39,7 @@
   {% if socialEventSponsors.size > 0 %}
     <h2>Social Event sponsor</h2>
     {% for sponsor in socialEventSponsors %}
-      <div class="sponsor">
+      <div class="sponsor" style="{{ sponsor.style }}">
       	<a href="{{ sponsor.url }}" target="_blank"><img src="/assets/images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }} logo" style="{{ sponsor.style }}"/></a><br />
       </div>
     {% endfor %}

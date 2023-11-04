@@ -52,7 +52,7 @@
    name     : Snyk
    url      : https://snyk.io
    level    : Gold
-   style    : 
+   style    : width:150px;
 
  - image    : contrast-security.png
    name     : Contrast Security
