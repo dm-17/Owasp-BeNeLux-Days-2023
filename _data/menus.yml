@@ -1,9 +1,7 @@
 - title: Program
   items:
-  - title: Speakers
-    url  : program/speakers
-  - title: Talks
-    url  : program/talks
+  - title: Conference
+    url  : program/conference
   - title: Training
     url  : program/training
   - title: Social event

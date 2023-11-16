@@ -14,36 +14,36 @@
 #  urltag  :
 #  display : yes
 
-#- day     : 24/11/2022
-#  time    : 08:30 - 09:00
+#- day     : 23/11/2024
+#  time    : 08:15 - 09:00
 #  name    :
-#  title   : Welcome and registration
+#  title   : Registration
 
-#- day     : 24/11/2022
-#  time    : 09:00 - 09:15
-#  name    : Irfaan Santoe
-#  title   : Introduction and OWASP update
+- day     : 23/11/2024
+  time    : 09:00 - 09:15
+  name    : Sebastien Deleersnyder
+  title   : Opening / Welcome
 
-#- day     : 24/11/2022
-#  time    : 10:45 - 11:00
-#  title   : Break
+- day     : 23/11/2024
+  time    : 10:35 - 11:05
+  title   : Break
 
-#- day     : 24/11/2022
-#  time    : 12:30 - 13:30
-#  title   : Lunch
+- day     : 23/11/2024
+  time    : 12:25 - 13:25
+  title   : Lunch
 
-#- day     : 24/11/2022
-#  time    : 15:00 - 15:15
-#  title   : Break
+- day     : 23/11/2024
+  time    : 15:25 - 15:55
+  title   : Break
 
-#- day     : 24/11/2022
-#  time    : 16:45 - 17:00
-#  name    : Sebastien Deleersnyder
-#  title   : Closing note
+- day     : 23/11/2024
+  time    : 17:15 - 17:30
+  name    : Priyam Awasthy
+  title   : Closing
 
 - image   : himanshu.png
   day     : 23/11/2024
-  time    : 
+  time    : 16:35 - 17:15
   name    : Himanshu Mehta
   bio     : >-
             I possess both expertise and passion in the field of Offensive 
@@ -83,12 +83,12 @@
   feed    :
   url     :
   urltag  :
-  display : no
+  display : yes
   confirmed: yes
 
 - image   : niels.jpg
   day     : 23/11/2024
-  time    : 
+  time    : 13:25 - 14:05
   name    : Niels Tanis
   bio     : >-
             Niels Tanis has got a background in .NET development, pentesting and 
@@ -118,12 +118,12 @@
   feed    :
   url     :
   urltag  :
-  display : no
+  display : yes
   confirmed: yes
 
 - image   : sarah-jane.jpg
   day     : 23/11/2024
-  time    : 
+  time    : 15:55 - 16:35
   name    : Sarah-Jane Madden
   bio     : >-
             Sarah-Jane is the Chief Information Security Officer of Sensing 
@@ -165,12 +165,12 @@
   feed    :
   url     :
   urltag  :
-  display : no
+  display : yes
   confirmed: yes
 
 - image   : bjoern.jpg
   day     : 23/11/2024
-  time    : 
+  time    : 11:05 - 11:45
   name    : Björn Kimminich
   bio     : >-
             Björn works as Product Group Lead Application Ecosystem at Kuehne + Nagel, 
@@ -191,12 +191,12 @@
   feed    :
   url     :
   urltag  :
-  display : no
+  display : yes
   confirmed: yes
  
 - image   : jeroen.jpg
   day     : 23/11/2024
-  time    : 
+  time    : 11:45 - 12:25
   name    : Jeroen Prinse
   bio     : >-
             Jeroen is a freelance (C)ISO/Security Architect, currently working for the 
@@ -223,12 +223,12 @@
   feed    :
   url     :
   urltag  :
-  display : no
+  display : yes
   confirmed: yes
  
 - image   : frans.jpg
   day     : 23/11/2024
-  time    : 
+  time    : 09:55 - 10:35
   name    : Frans van Buul
   bio     : >-
             Based out of the Netherlands, Frans van Buul is senior product manager for 
@@ -267,12 +267,12 @@
   feed    :
   url     :
   urltag  :
-  display : no
+  display : yes
   confirmed: yes
 
 - image   : pieter.jpg
   day     : 23/11/2024
-  time    : 
+  time    : 14:05 - 14:45
   name    : Pieter De Cremer
   bio     : >-
             Pieter De Cremer (@0xDC0DE) is a Senior Security Researcher at Semgrep, a startup 
@@ -310,12 +310,12 @@
   feed    :
   url     :
   urltag  :
-  display : no
+  display : yes
   confirmed: yes
 
 - image   : rob.png
   day     : 23/11/2024
-  time    : 
+  time    : 09:15 - 9:55
   name    : Rob van der Veer 
   bio     : >-
             Rob van der Veer has a 30-year-long background in building secure software and running software 
@@ -337,12 +337,12 @@
   feed    :
   url     :
   urltag  :
-  display : no
+  display : yes
   confirmed: yes
 
 - image   : stefaan.jpg
   day     : 23/11/2024
-  time    : 
+  time    : 14:45 - 15:25
   name    : Stefan Simenon
   bio     : >-
             I am an IT professional passionate about topics such as Continuous Integration Continuous 
@@ -361,5 +361,5 @@
   feed    :
   url     :
   urltag  :
-  display : no
+  display : yes
   confirmed: yes
