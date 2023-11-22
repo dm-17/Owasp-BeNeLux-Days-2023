@@ -46,7 +46,7 @@
              All modules are as little slides as possible and instead rich in practical 
              exercises and examples!<br />
              <br />
-             Recuirements:<br />
+             Requirements:<br />
              * Laptop with a recent version of Docker Desktop and Node.js/NPM installed
    feed    :
    url     :
@@ -91,7 +91,7 @@
              architects to product managers focused on security, incident responders, 
              and cybersecurity analysts or managers.<br />
              <br />
-             Recruirements:<br />
+             Requirements:<br />
              * A laptop with a browser is required for downloading the exercise PDFs 
              and taking notes. No software is required.
    feed    :
@@ -126,8 +126,45 @@
              mobile security. Join us on this galactic adventure of exploring the OWASP 
              MASVS and MASTG!<br />
              <br />
-             Recruirements:<br />
+             Requirements:<br />
              * A Linux VM with Java runtime installed
+   feed    :
+   url     :
+   urltag  :
+   display : yes
+
+ - image   : nanne.png
+   day     : 24/11/2023
+   time    : 09:00 - 17:00
+   name    : Nanne Baars
+   bio     : >-
+             Nanne is a security software developer with a focus on Java development 
+             and one of the project leads for the OWASP WebGoat project.
+   title   : Teaching application security 101 with WebGoat
+   abstract: >-
+             A good defense against insecure code requires understanding the mechanics 
+             behind how attackers exploit simple programming mistakes. The WebGoat team 
+             will walk through exercises like SQL Injection, XSS, XXE, CSRF, … and 
+             demonstrate how these exploits work.<br />
+             <br />
+             We will show you how you can use WebGoat to train your developers to avoid 
+             these simple but common programming mistakes. We also show you how to 
+             extend WebGoat to create lessons specific to your environment. Join us to 
+             learn the most basic, but common, application security problems.<br />
+             <br />
+             Tired of all the lessons? During the training we will host a small CTF 
+             competition which you can take a shot at and compete with each other.<br />
+             <br />
+             The workshop is really hands on, we explain the theory about the 
+             vulnerability and then it is up to the participants to solve the 
+             assignments. After each lesson we explain how to mitigate the 
+             vulnerability in your day to day development.<br />
+             <br />
+             It is an open source project and with this workshop we get a lot of 
+             feedback on how we can improve and new lessons to our framework.
+             <br />
+             Requirements:<br />
+             * Laptop with installed: Docker or Java 17
    feed    :
    url     :
    urltag  :
