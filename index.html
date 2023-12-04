@@ -6,17 +6,37 @@ bodyclass: front
 <section class="punch">
 
 <br><br>
-<h1>The "OWASP BeNeLux Days 2023" edition will take place on Thursday 23rd and Friday 24th of November 2023 in Hasselt (Belgium)</h1>
+<h1>The '23 conference is over :(</h1>
+<h1>But we will meet you next year:<br><br>
+<h2>Mark the date: we will host the 2024 edition on 28 and 29th of November in the Netherlands!</h2>
 <br>
-<h2>More details will follow soon as we're working on the conference program!</h2>
+<br>
 
-<h2>News</h2>
-{% for news in site.data.news %}
-  {% if news.display %}
-  <h5>{{news.date}}:</h5>
-  <p>{{news.text}}</p>
-  {% endif %}
-{% endfor %}
+{% if site.data.conference[0].title %}
+<h2>Conference program on 23/11/2023</h2>
+	{% assign speakers = site.data.conference | sort: 'time' %}
+	{% for speaker in speakers %}
+	{% if speaker.display %}
+	  <ul>
+		<li><a href="/program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a> by {{speaker.name}}</li>
+	  </ul>
+	{% endif %}
+	{% endfor %}
+
+{% endif %}
+<br>
+{% if site.data.training[0].name %}
+<h2>Trainings on 24/11/2023</h2>
+	{% assign trainings = site.data.training | sort: 'time' %}
+	{% for training in trainings %}
+	{% if training.display %}
+	  <ul>
+		<li><a href="/program/training#{{training.name | replace: " ","-"}}">{{training.title}}</a> by {{training.name}}{% if training.name2 %} and {{training.name2}}{% endif %}</li>
+	  </ul>
+	{% endif %}
+	{% endfor %}
+	</table>
+{% endif %}
 <br>
 
 
