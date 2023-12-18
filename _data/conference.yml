@@ -65,7 +65,7 @@
             Whether you’re an experienced developer or a cybersecurity 
             professional, this talk will arm you with the necessary knowledge 
             and tools to effectively exploit and secure GraphQL implementations.
-  feed    :
+  feed    : https://youtu.be/mvQ-oR8LrB8
   url     :
   urltag  :
   display : yes
@@ -100,7 +100,7 @@
             application it with WASM. After that we'll focus on the security 
             features and use the sandbox and the capabilities based security 
             model to limit what it's allowed to do.
-  feed    :
+  feed    : https://youtu.be/1O4tmtvFpQ4
   url     :
   urltag  :
   display : yes
@@ -147,7 +147,7 @@
             to include a look at the challenges and some surprising advantages
             of threat modelling on remote teams, the impact of legislation and the 
             pros and cons of AI for the practice.
-  feed    :
+  feed    : https://youtu.be/jf6f4LNtR_w
   url     :
   urltag  :
   display : yes
@@ -173,7 +173,7 @@
             scope and use case coverage significantly over the years. Join Björn Kimminich 
             on a tour through the origins, history and evolution of OWASP Juice Shop from 
             2014 to 2023, closing with a peek into the future of this juicy hacking delicacy.
-  feed    :
+  feed    : https://youtu.be/54caQ4g72oI
   url     :
   urltag  :
   display : yes
@@ -205,7 +205,7 @@
             the thinking of/and inspiring the audience with regards to Secure DevOps/Agile 
             information security. I will engage with the audience to share their pitfalls and 
             successes and provide a learning experience for all attendees.
-  feed    :
+  feed    : https://youtu.be/g87pppfobTM
   url     :
   urltag  :
   display : yes
@@ -249,7 +249,7 @@
             In this talk, we’ll have a look at the frontier of SAST technology, looking at 
             two specific examples and their peculiarities&#amp; Bicep (Microsoft’s IaC language 
             for Azure), and Solidity (the most widely used language for smart contracts).
-  feed    :
+  feed    : https://youtu.be/Nqual0Vsguk
   url     :
   urltag  :
   display : yes
@@ -292,7 +292,7 @@
             the second half of this presentation, I present practical tips and guidelines on how to 
             get started and which features in security tools can make the adoption of secure 
             defaults easier.
-  feed    :
+  feed    : https://youtu.be/dgBjOPZdqtI
   url     :
   urltag  :
   display : yes
@@ -319,7 +319,7 @@
             on this subject. The latest AI threats,  the latest insights into how you can protect AI 
             systems. And last but not least: what coding with GenAI means for software development, 
             and security in particular.
-  feed    :
+  feed    : https://youtu.be/EYyNmibb7WI
   url     :
   urltag  :
   display : yes
@@ -343,7 +343,7 @@
             It is not easy to implement DevSecOps in an organization. In large complex organizations 
             it is even more difficult to implement. Stefan will elaborate in his talk about main 
             challenges and how to overcome them. He also will provide experiences and best practices.
-  feed    :
+  feed    : https://youtu.be/Q4Iy7aCAbYo
   url     :
   urltag  :
   display : yes
