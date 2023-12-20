@@ -7,18 +7,19 @@ title: Relive the conference
   <thead>
     <td>Speaker</td>
     <td>Title</td>
-    <td>Date</td>
+    <td>Time</td>
     <td>Feed</td>
-    <!--<td>Speaker link</td>-->
+    <td>Speaker link</td>
   </thead>
-	{% for speaker in site.data.conference %}
+	{% assign speakers = site.data.conference | sort: 'time' %}
+	{% for speaker in speakers %}
 		{% if speaker.name %}
       {% if speaker.feed %}
         <tr>
         <td><a name="{{speaker.name}}"><a href="/program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.name}}</a>
         <img style="background-image: url(/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};"></a></td>
         <td><a href="/program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a></td>
-        <td><em>{{speaker.day}}</em></td>
+        <td><em>{{speaker.time | replace: " ", ""}}</em></td>
         <td><a href="{{speaker.feed}}"><img class="youtube" src="/assets/images/conference/youtube_social_icon_red.png"></a></td>
         <td>
         {% if speaker.url %}
