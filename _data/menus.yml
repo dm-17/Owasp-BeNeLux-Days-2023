@@ -10,6 +10,8 @@
   url  : location/
 - title: Sponsor
   url  : sponsor/
+- title: Relive the conference
+  url  : program/feeds
 - title: Donate
   url  : donate/
 #- title: Register
