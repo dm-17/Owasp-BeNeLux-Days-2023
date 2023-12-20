@@ -15,7 +15,7 @@ title: Relive the conference
 		{% if speaker.name %}
       {% if speaker.feed %}
         <tr>
-        <td><a name="{{speaker.name}}"><a href="//program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.name}}</a>
+        <td><a name="{{speaker.name}}"><a href="/program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.name}}</a>
         <img style="background-image: url(/assets/images/conference/{{speaker.image | default:'owasp_logo.png'}});{{speaker.style}};"></a></td>
         <td><a href="/program/conference#{{speaker.name | replace: " ","-"}}">{{speaker.title}}</a></td>
         <td><em>{{speaker.day}}</em></td>
